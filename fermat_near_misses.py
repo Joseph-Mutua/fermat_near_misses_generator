@@ -1,4 +1,5 @@
-
+# A near miss generator for Fermat's Last Theorem
+# a^n + b^n = c^n (n > 2)
 import math
 
 # Min values for "a", "b" and "c" to begin with
@@ -10,11 +11,11 @@ stepSize = 1000
 # Range in which to search for the values for each iteration
 searchSize = 3000
 
-# the maximum allowable miss
+# Define the maximum allowable miss
 maxMiss = 1e-08
 
 # No of iterations to run the program
-iterations = 2
+iterations = 20
 
 # Min/max number 'n'
 minN = 5
