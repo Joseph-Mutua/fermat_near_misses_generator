@@ -56,9 +56,16 @@ def getNearestSolution(minB, maxB, n):
                 miss = 1 - miss
                 pass
 
+
             if miss < nMiss:
                 c = int(math.floor(cExact))
-
+                
+                
+                # Check whether the value of c is within the allowable
+                # range of difference to 'a' and 'b' 
+                # if so, subsitute the values of the integers
+                # 'a', 'b', 'c' and 'n' in the nearestSolution object to 
+                # those obtained above
                 if c > b + diffCToAB and c > a + diffCToAB:
                     nearestSolution = {
                         'a': a,
@@ -79,7 +86,8 @@ def getNearestSolution(minB, maxB, n):
 
     return nearestSolution
 
-
+# Create array to hold the values of the solutions 
+# meeting the value of maximum miss
 solutions = []
 
 # Begin the iterations
@@ -97,6 +105,7 @@ for iteration in range(0, iterations):
               str(maxB) + " and the exponent " + str(n) + " => " +
               str(solution))
 
+        # Append the obtained solution to the slutions array
         if solution['miss'] < maxMiss:
             solutions.append(solution)
             pass
