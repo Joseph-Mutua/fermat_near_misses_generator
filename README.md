@@ -29,7 +29,7 @@ We'll then define eight variables to hold critical values we'll need for our ope
 - ***iterations*** - This defines the number of iterations we want to undertake each time we run the program.
 - ***minN***- The minimum value of ***n*** for which to begin searching for the near-misses. (*For this program I set this to 5*)
 - ***maxN*** - The maximum value of ***n*** at which we'll stop searching. (*I set this to 20*)
-*(We'll therefore search for integers ***a***,***b***,***c*** for 5 < ***n*** < 20)*
+*(We'll therefore search for integers ***a***,***b***,***c*** for 5 < ***n*** <= 20)*
 - ***diffCToAB*** - The value of the integer ***c*** should not be close to the values of ***a*** and ***b*** by this margin.
 
 
