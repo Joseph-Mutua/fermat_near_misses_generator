@@ -214,7 +214,7 @@ Nearest solution for the bases between 2000 and 5000 and the exponent 20 => {'a'
 
 ```
 
-For our first two iterations we have obtained one integer triplet
+For our first two iterations we have obtained one integer triplet that qualifies as a near-miss:
 ```bash
 [{'a': 3987, 'b': 4365, 'c': 4472, 'n': 12, 'miss': 7.057678885757923e-09}]
 ```
