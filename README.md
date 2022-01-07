@@ -32,6 +32,29 @@ We'll then define eight variables to hold critical values we'll need for our ope
 *(We'll therefore search for integers ***a***,***b***,***c*** for 5 < ***n*** <= 20)*
 - ***diffCToAB*** - The value of the integer ***c*** should not be close to the values of ***a*** and ***b*** by this margin.
 
+```python
+# Min values for "a", "b" and "c" to begin with
+startNumber = 1000
+
+# Value to increment the values of 'a', 'b' and 'c' between the iterations
+stepSize = 1000
+
+# Range in which to search for the values for each iteration
+searchSize = 3000
+
+# Define the maximum allowable miss
+maxMiss = 1e-08
+
+# No of iterations to run the program
+iterations = 20
+
+# Min/max number 'n'
+minN = 5
+maxN = 20
+
+# 'c' should not be near 'a' and 'b' by this value
+diffCToAB = 20
+```
 
 ## Step 3
 We'll now define a function ***getNearestSolution()*** which will return the closest solution for (***a***, ***b***,***c*** ) for a given range for the base and the given exponent(***n***).
