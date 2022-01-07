@@ -1,4 +1,4 @@
-#  Fermat near-misses.
+#  Fermat near-misses
 
 Design a simple program to produce near-misses of integer triplets that would satisfy
 
