@@ -13,7 +13,7 @@ when ***n > 2***, and ***a***, ***b*** and ***c*** are all non-zero.
 I designed a Python program to attempt to generate near-misses of the above equation, i.e integer triplets that come extremely close to satisfying the equation but in actuality don't.
 
 ## Step One
-Import the Python [math](https://docs.python.org/3/library/math.html) module which will provide us with the mathematical functions neededed for the program.
+Import the Python [math](https://docs.python.org/3/library/math.html) module which will provide us with the mathematical functions needed for the program.
 
 ```python
 # A near miss generator for Fermat's Last Theorem
