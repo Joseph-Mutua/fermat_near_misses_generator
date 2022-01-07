@@ -16,8 +16,7 @@ I designed a Python program to attempt to generate near-misses of the above equa
 Import the Python [math](https://docs.python.org/3/library/math.html) module which will provide us with the mathematical functions needed for the program.
 
 ```python
-# A near miss generator for Fermat's Last Theorem
-# a^n + b^n = c^n (n > 2)
+
 import math
 ```
 ## Step Two
