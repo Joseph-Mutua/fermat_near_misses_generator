@@ -38,9 +38,19 @@ def getNearestSolution(minB, maxB, n):
     nMiss = 1
     for a in range(minB, maxB + 1):
         for b in range(a, maxB + 1):
+            
+            # approximate the value of 'c' by raising the sum of 
+            # powers of 'a' and 'b' to the power of inverse 'n'
             cExact = math.pow(math.pow(a, n) + math.pow(b, n), 1.0 / n)
             miss = cExact % 1
 
+
+            # if the miss is greater than 0.5, increment the value of 
+            # c by 1 and set the miss to the difference of 1 and the 
+            # obtained miss and pass onto the next operation
+            
+            # if the miss obtained is less than the value of nMiss, 
+            # set c to the value obtained from cExact
             if miss > 0.5:
                 cExact += 1
                 miss = 1 - miss
