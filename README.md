@@ -169,7 +169,7 @@ git clone <url>
 ```
 Now navigate to the project folder and run the program `python3 fermat_near_misses.py`
 
-**Note:** For this example I will only run 2 iterations for the sake of demonstration.
+**Note:** For this example I will run only 2 iterations for the sake of brevity. Generally the more the better. 
 
 
 
