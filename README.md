@@ -54,7 +54,6 @@ maxN = 20
 # 'c' should not be near 'a' and 'b' by this value
 diffCToAB = 20
 ```
-**NB:** The ***miss*** is obtained from `(c^n - (a^n + b^n))`. This is the value we will check for each integer triplet against the ***maxMiss*** value before the triplet can qualify as a ***near-miss***.
 ## Step 3
 We'll now define a function ***getNearestSolution()*** which will return the closest solution for (***a***, ***b***,***c*** ) for a given range for the base and the given exponent(***n***).
 
