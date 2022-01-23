@@ -208,6 +208,7 @@ Nearest solution for the bases between 2000 and 5000 and the exponent 17 => {'a'
 Nearest solution for the bases between 2000 and 5000 and the exponent 18 => {'a': 3931, 'b': 4501, 'c': 4522, 'n': 18, 'miss': 1.1370684660505503e-07}
 Nearest solution for the bases between 2000 and 5000 and the exponent 19 => {'a': 4629, 'b': 4659, 'c': 4817, 'n': 19, 'miss': 7.106345947249793e-07}
 Nearest solution for the bases between 2000 and 5000 and the exponent 20 => {'a': 2586, 'b': 2615, 'c': 2693, 'n': 20, 'miss': 1.6082385627669282e-06}
+
 [{'a': 3987, 'b': 4365, 'c': 4472, 'n': 12, 'miss': 7.057678885757923e-09}]
 
 ```
