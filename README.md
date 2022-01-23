@@ -55,7 +55,7 @@ maxN = 20
 diffCToAB = 20
 ```
 ## Step 3
-We'll now define a function ***getNearestSolution()*** which will return the closest solution for (***a***, ***b***,***c*** ) for a given range for the base and the given exponent(***n***).
+We'll now define a method ***getNearestSolution()*** which will return the closest solution for (***a***, ***b***,***c*** ) for a given range for the base and the given exponent(***n***).
 
 Inside the function we create a dictionary to hold the integers and initialize them with zero values and a maximum miss of 1.
 
@@ -127,7 +127,7 @@ Next we check whether the value of ***c*** is within the allowable range of diff
 
 ```
 ## Step 5
-We'll now create a ***solutions*** array to hold the integer triplets that qualify as near-misses and begin our iterations using a *for loop*. The final results will be printed to the console.
+We'll now create a ***solutions*** list to hold the integer triplets that qualify as near-misses and begin our iterations using a *for loop*. The final results will be printed to the console.
 
 
 ```python
