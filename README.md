@@ -55,7 +55,7 @@ maxN = 20
 diffCToAB = 20
 ```
 ## Step 3
-We'll now define a method ***getNearestSolution()*** which will return the closest solution for (***a***, ***b***,***c*** ) for a given range for the base and the given exponent(***n***).
+We'll now define a function ***getNearestSolution()*** which will return the closest solution for (***a***, ***b***,***c*** ) for a given range for the base and the given exponent(***n***).
 
 Inside the function we create a dictionary to hold the integers and initialize them with zero values and a maximum miss of 1.
 
